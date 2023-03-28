@@ -1,0 +1,117 @@
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+}
+
+ul li {
+  margin: 27px 33px;
+}
+
+ul li a {
+  text-decoration-line: none;
+}
+.main {
+  align-items: center;
+}
+
+.featured-work {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-work h3 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.work-list {
+  display: flex;
+}
+
+.work-list img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+  margin: 45px 0px;
+}
+.workdetail {
+  margin-top: 30px;
+}
+
+.workdetail a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  text-decoration-line: none;
+  margin: 0px 0px 0px 15px;
+}
+
+.year-type {
+  max-width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px 0px 18px;
+}
+
+.icon {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.year-type h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+  margin-left: 26px;
+}
+
+.workdetail p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 18px 0px 0px 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 182px;
+  text-align: center;
+}
+
+.socialicon {
+  align-content: center;
+  width: 235px;
+  display: flex;
+  justify-content: space-around;
+  margin: 51px 0px;
+}
+
+.rights {
+  margin: 25px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media (max-width: 450px) {
+  .main-container {
+    align-items: center;
+    text-align: center;
+  }
+}

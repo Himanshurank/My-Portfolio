@@ -1,0 +1,117 @@
+.headname {
+  min-height: 595px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headname img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.headname h1 {
+  max-width: 506px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.headname p {
+  max-width: 497px;
+  height: 66px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px;
+}
+
+.download-resume {
+  width: 208px;
+  height: 47px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  background: #ff6464;
+  border-radius: 2px;
+  color: #ffffff;
+  margin-top: 38px;
+  border: none;
+}
+
+.post-container {
+  height: auto;
+}
+
+.featured-work h3 {
+  width: 200px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.featured-work img {
+  width: 246px;
+  height: 180px;
+  margin: 30px 0px;
+}
+
+.work-list {
+  display: flex;
+  justify-content: center;
+}
+
+.workdetail h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  margin: 11px 0px 0px 18px;
+}
+
+.year-type {
+  max-width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 0px 18px;
+  align-items: center;
+}
+
+.year-type h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.icon {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.workdetail p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 32px 0px 17px 21px;
+}
+
+@media (max-width: 450px) {
+  .headname {
+    align-items: center;
+    text-align: center;
+  }
+
+  .w2 {
+    display: none;
+  }
+}

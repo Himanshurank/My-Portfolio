@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+  color: #21243d;
+  box-sizing: border-box;
+  /* border: 1px dashed red; */
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-left: 148px;
+  margin-right: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 27px 33px;
+}
+
+.navbar a {
+  text-decoration-line: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.postmain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recent-post {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.sm-post {
+  width: 418px;
+  height: 295px;
+  background: #ffffff;
+  border: 1px solid rgba(153, 153, 153, 0.722);
+  border-radius: 4px;
+  transition: all ease-in-out 1s;
+}
+
+.sm-post:hover {
+  transition: all ease-in-out 1s;
+  box-shadow: 2px 2px 2px 0px rgba(137, 137, 137, 0.533);
+}
+
+.sm-post-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  margin: 24px 21px 0px 23px;
+}
+
+.sm-post-sub-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243d;
+  margin: 17px 23px 0px 23px;
+}
+
+.v-divider {
+  margin: 0 25px;
+  border: 1px solid black;
+}
+.sm-post-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 11px 23px 0px 23px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 182px;
+  text-align: center;
+}
+
+.socialicon {
+  align-content: center;
+  width: 235px;
+  display: flex;
+  justify-content: space-around;
+  margin: 51px 0px;
+}
+
+.rights {
+  margin: 25px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+@media (max-width: 450px) {
+  .main {
+    padding: 0px 18px;
+  }
+
+  * {
+    flex-wrap: wrap;
+  }
+}
